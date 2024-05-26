@@ -1,0 +1,456 @@
+.menu-items {
+    background-color: #F2F7FC;
+    border-radius: 25px;
+    padding: 12px 20px;
+    box-shadow: 0 0 5px 0 #c3c3c3;
+    float: right !important;
+
+    position: fixed;
+    right: 50px;
+    z-index: 1;
+    opacity: .8;
+}
+
+.menu-item {
+    padding: 2px 0px;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #E1E8EF;
+    cursor: pointer;
+}
+
+.menu-item .text-wraper {
+    font-size: 14px;
+}
+
+.menu-item .icon-wraper {
+    margin: 5px 50px;
+    color: #7E7C79
+}
+
+.menu-item .icon-wraper svg {
+    width: 20px;
+    height: 20px;
+}
+#bg{
+    background-image: linear-gradient(to right, #205e81, #1CA1F2);
+    /* border: 2px solid red; */
+}
+
+.menu-item.active {
+    color: white !important;
+    /* background-image: linear-gradient(to right, #FF9C1B, #EB1D08); */
+
+    background-image: linear-gradient(to right, #205e81, #1CA1F2);;
+  
+}
+
+.menu-item.active .icon-wraper {
+    color: #ffffff
+}
+
+.menu-item:hover {
+    background-color: #ced4da;
+}
+
+.menu-item:hover .text-wraper {
+    color: white;
+}
+
+.menu-item:hover .icon-wraper {
+    color: white
+}
+
+.left-content-wraper,
+.right-content-wraper {
+    position: relative;
+    top: 100px;
+    background-color: white;
+    /* box-shadow: 0 0 5px 0 #c3c3c3; */
+    border-radius: 15px;
+    padding: 10px;
+    /* border:2px solid black; */
+}
+
+.left-content-wraper img{
+    position: relative;
+    top: -60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.left-content-wraper .name {
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 25px;
+}
+
+.left-content-wraper .position {
+    color: #858484;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.left-content-wraper .social-media-items {
+    text-align: center;
+    display: inline-block;
+}
+
+.left-content-wraper .social-media-item {
+    display: inline-block;
+    padding: 20px;
+    background-color: #F2F7FC;
+    border-radius: 15px;
+    margin: 10px 5px;
+}
+
+.left-content-wraper .social-media-item:hover {
+    background-color: #dee1e4;
+    cursor: pointer;
+}
+
+.left-content-wraper .social-media-item svg {
+    width: 20px;
+    height: 20px;
+}
+
+.left-content-wraper .contact-details {
+    text-align: left;
+    background-color: #F2F5F9;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.left-content-wraper .contact-details .detail-wraper .icon-wraper {
+    padding: 25px;
+}
+
+.left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+    width: 25px;
+    height: 25px;
+}
+
+.left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+    font-size: 13px;
+    color: #86837E;
+    font-weight: 500;
+}
+
+.left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.left-content-wraper .contact-details .detail-wraper {
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.left-content-wraper .contact-details .download-resume {
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.left-content-wraper .contact-details .download-resume button {
+    background-image: linear-gradient(to right, #FF9C1B, #EB1D08);
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.left-content-wraper .contact-details .download-resume button:hover {
+    opacity: 0.9;
+}
+
+.left-content-wraper .contact-details .download-resume button svg {
+    width: 15px;
+    height: 15px;
+    font-weight: 900;
+    margin: 0 10px;
+}
+
+
+.right-content-wraper section {
+    margin: 20px 70px;
+}
+
+.right-content-wraper .header .header-title {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.right-content-wraper .header .header-line {
+    width: 30%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to right, #FF9C1B, #EB1D08);
+    border-radius: 50%;
+}
+
+.right-content-wraper .header2 .header-title {
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+
+@media(max-width: 1777px) {
+    .left-content-wraper .contact-details {
+        padding: 20px;
+        margin: 10px 0 0 0;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 12px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .left-content-wraper .contact-details {
+        padding: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 13px;
+        height: 13px;
+        margin: 0 5px;
+    }
+
+    .left-content-wraper .name {
+        font-size: 25px;
+        margin-top: 5vh;
+    }
+
+    .left-content-wraper .position {
+        font-size: 13px;
+    }
+
+    .left-content-wraper .social-media-item {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    .left-content-wraper .social-media-item svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .right-content-wraper .header .header-title {
+        font-size: 35px;
+    }
+
+    .right-content-wraper .header2 .header-title {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+
+    .right-content-wraper .about-me {
+        font-size: 15px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px 55px;
+    }
+
+    .menu-item .icon-wraper {
+        margin: 3px 32px;
+    }
+
+    .menu-item .text-wraper {
+        font-size: 13px;
+    }
+
+    .menu-item {
+        padding: 15px 0px;
+        margin: 0px 10px;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .left-content-wraper {
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .right-content-wraper {
+        border-top: 1px solid rgb(238, 238, 238);
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .left-content-wraper .contact-details {
+        margin: 10px 100px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 25px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 13px;
+        color: #86837E;
+        font-weight: 500;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .menu-items {
+        float: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        margin-top: 10px;
+    }
+
+    .menu-item {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 20px;
+        margin: 5px 10px;
+    }
+
+    .menu-item .text-wraper  {
+        line-height: 21px;
+        margin: 0 10px;
+    }
+
+    .menu-item .icon-wraper {
+        margin: 0 0 0 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .left-content-wraper .contact-details {
+        margin: 10px 30px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .menu-item {
+        padding: 12px;
+        margin: 5px;
+    }
+
+    .menu-item .icon-wraper svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu-item .text-wraper {
+        font-size: 10px;
+    }
+
+    .logo-wraper {
+        text-align: center;
+    }
+
+    .left-content-wraper .contact-details {
+        margin: 10px 0;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 15px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 12px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 11px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px;
+    }
+
+    .right-content-wraper .header .header-title {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .right-content-wraper .about-me {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .right-content-wraper .header2 .header-title {
+        font-size: 20px;
+        margin: 30px 0 10px 0;
+    }
+}
