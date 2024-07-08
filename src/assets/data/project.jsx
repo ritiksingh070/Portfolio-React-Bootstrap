@@ -5,6 +5,7 @@ import FormValidation from '../images/works/FormValidation.png'
 import GithubExplorer from '../images/works/GithubExplorer.png'
 import UnitConverter from '../images/works/UnitConverter.png'
 import TicTacToe from '../images/works/TicTacToe.png'
+import QuizApp from '../images/works/QuizApp.png'
 
 
 export const projects = [
@@ -14,6 +15,13 @@ export const projects = [
     imageLocation: `${ElderSerene}`,
     websiteLiveUrl: "https://e-lder-serene-hack4-bengal-project.vercel.app/",
     sourceCodeUrl: "https://github.com/nikku9678/ELderSerene-Hack4Bengal-Project",
+  },
+  {
+    title: "QuizzyMind",
+    category: "Web Development",
+    imageLocation: `${QuizApp}`,
+    websiteLiveUrl: "https://quiz-app-ubqh.vercel.app/",
+    sourceCodeUrl: "https://github.com/ritiksingh070/QuizApp",
   },
   {
     title: "Spotiy-Clone",
